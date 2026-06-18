@@ -22,7 +22,7 @@ jobs:
     steps:
       # Step 1: 检出源仓库
       - name: Checkout Source Repo
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           ref: ${{ env.TARGET_BRANCH }}
           fetch-depth: 0
